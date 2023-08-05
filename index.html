@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MEGABITES</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./fontawesome-free-6.2.1-web/css/all.min.css">
+    <script src="https://js.paystack.co/v1/inline.js"></script>
+</head>
+<body>
+    <header class="head">
+        <a href="#" class="logo"><span>M</span>EGA&nbsp; <i class="fas fa-hamburger"></i>&nbsp;<span>B</span>ITES</a>
+        <nav class="navbar">
+            <a href="#home"><span>H</span>ome</a>
+            <a href="#about"><span>A</span>bout</a>
+            <a href="#service"><span>S</span>ervices</a>
+            <a href="#menu"><span>M</span>enu</a>
+            <a href="#contact"><span>C</span>ontact</a>
+        </nav>
+        <div id="menu-bar"><i class="fas fa-bars"></i></div>
+    </header>
+    <!-- home section -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <div class="inner-content">
+                <h3>Meal of the Day!</h3>
+                <br>
+                <p>Welcome to MEGABITES, the hub of customer satisfaction. On this platform we offer the best meals and drinks at affordable prices. Enjoy!</p>
+                <button class="btn">Explore Menu</button>
+            </div>
+            <div class="inner-content-img">
+                <img src="./pngwing.com.png" alt="">
+            </div>
+        </div>
+    </section>
+    <!-- home section ends -->
+
+    <!-- about section begins -->
+    <section class="about" id="about">
+        <h4>About Us</h4>
+        <div class="about-content">
+            <div class="about-box">
+                <h3>Welcome to MEGABITES,</h3>
+                <p>The hub of customer satisfaction. On this platform we offer the best meals, drinks and services at affordable prices. Enjoy!</p>
+                <br>
+                <p>Introducing our special One-For-All service. Buy and enjoy all our available products at the same price! Grab this offer while you can!</p>
+                <div class="about-inner">
+                    <h5><i class="fas fa-check-square"></i>Good Food</h5>
+                    <h5><i class="fas fa-check-square"></i>fresh Vegetables</h5>
+                    <h5><i class="fas fa-check-square"></i>Available 24x7</h5>
+                    <h5><i class="fas fa-check-square"></i>Affordable Price</h5>
+                    <h5><i class="fas fa-check-square"></i>Best Quality</h5>
+                    <h5><i class="fas fa-check-square"></i>Vegan & Non-Vegan</h5>
+                </div>
+            </div>
+            <div class="about-box">
+                <img src="./Images/big-tasty-burger-with-fries.jpg" alt="">
+            </div>
+        </div>
+    </section>
+    <!-- about section ends -->
+    <!-- services section begins -->
+    <section id="service" class="service">
+        <h4>Services</h4>
+        <div class="container">
+            <div class="s-container">
+                <i class="fas fa-clock"></i>
+                <h2>24x7 Services</h2>
+            </div>
+
+            <div class="s-container">
+                <i class="fas fa-biking"></i>
+                <h2>Home Delivery</h2>
+            </div>
+
+            <div class="s-container">
+                <i class="fas fa-glass-martini"></i>
+                <h2>Beverages</h2>
+            </div>
+        </div>
+    </section>
+
+    <!-- menu section -->
+    <section class="menu" id="menu">
+        <h4>Our Menu</h4>
+        <div class="menu-content">
+            <div class="in-box">
+                <img src="./Images/fried-chicken-french-fries-white-plate.jpg" alt="">
+                <div class="in-content">
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <h2>Fried Chicken French Fries</h2>
+                        <div class="price">N7000</div>
+                        <br>
+                        <div class="price2">N5000</div>
+                        <button class="btn" onclick="makePayment()">Pay Now <i class="fas fa-plus-circle"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="in-box">
+                <img src="./Images/chicken-steak-topped-with-white-sesame-peas-tomatoes-broccoli-pumpkin-white-plate.jpg" alt="">
+                <div class="in-content">
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <h2>Chicken and Peas</h2>
+                        <div class="price">N6000</div>
+                        <br>
+                        <div class="price2">N5000</div>
+                        <button class="btn" onclick="makePayment()">Pay Now <i class="fas fa-plus-circle"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="in-box">
+                <img src="./Images/fresh-vegetable-salad-with-grilled-chicken-breast.jpg" alt="">
+                <div class="in-content">
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <h2>Chicken Salad</h2>
+                        <div class="price">N10000</div>
+                        <br>
+                        <div class="price2">N5000</div>
+                        <button class="btn" onclick="makePayment()">Pay Now <i class="fas fa-plus-circle"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="in-box">
+                <img src="./Images/top-view-fresh-delicious-fruit-juices-served-with-apple-feijoas-oranges-wooden-cutting-board.jpg" alt="">
+                <div class="in-content">
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <h2>Fruit Juice</h2>
+                        <div class="price2">N5000</div>
+                        <button class="btn" onclick="makePayment()">Pay Now <i class="fas fa-plus-circle"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="in-box">
+                <img src="./Images/meat-plate-with-potatoes-souce.jpg" alt="">
+                <div class="in-content">
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <h2>Potato Meat Plate</h2>
+                        <div class="price">N7000</div>
+                        <br>
+                        <div class="price2">N5000</div>
+                        <button class="btn" onclick="makePayment()">Pay Now <i class="fas fa-plus-circle"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="in-box">
+                <img src="./Images/tasty-burger-isolated-white-background-fresh-hamburger-fastfood-with-beef-cheese.jpg" alt="">
+                <div class="in-content">
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <h2>Meat Burger</h2>
+                        <div class="price2">N5000</div>
+                        <button class="btn" onclick="makePayment()">Pay Now <i class="fas fa-plus-circle"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="in-box">
+                <img src="./Images/colorful-smoothie-bottles-fruit.jpg" alt="">
+                <div class="in-content">
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <h2>Smoothie</h2>
+                        <div class="price2">N5000</div>
+                        <button class="btn" onclick="makePayment()">Pay Now <i class="fas fa-plus-circle"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="in-box">
+                <img src="./Images/immunity-boosting-food-healthy-lifestyle-with-citrus.jpg" alt="">
+                <div class="in-content">
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <h2>Fruits and Drinks</h2>
+                        <div class="price">N10000</div>
+                        <br>
+                        <div class="price2">N5000</div>
+                        <button class="btn" onclick="makePayment()">Pay Now <i class="fas fa-plus-circle"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="in-box">
+                <img src="./Images/delicious-leafy-vegetable-salad-white-plate-with-slices-bell-peppers-top.jpg" alt="">
+                <div class="in-content">
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <h2>Salad Plate</h2>
+                        <div class="price">N10000</div>
+                        <br>
+                        <div class="price2">N5000</div>
+                        <button class="btn" onclick="makePayment()">Pay Now <i class="fas fa-plus-circle"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- menu section ends -->
+    <section class="contact" id="contact">
+        <h4>Contact Us</h4>
+        <div class="contact-sec">
+            <div class="contact-inner">
+                <div class="contact-inner-col">
+                    <div class="map">
+                        <!-- image here -->
+                    </div>
+                </div>
+                <div class="contact-inner-col">
+                    <h2>How can we Help?</h2>
+                    <p>No 15, Utility Avenue Bako estate Lagos state. 09023308211</p>
+                    <p>We want to hear from you. Write us.</p>
+                    <form action="" id="formdetails" method="get">
+                        <input type="text" name="name" id="name" placeholder="Please Enter Your Name" required>
+                        <input type="text" name="email" id="name" placeholder="Please Enter Your Email" required>
+                        <input type="text" name="mobile" id="name" placeholder="Please Enter Your Mobile No." required>
+                        <textarea name="msg" id="" cols="08" rows="04" placeholder="Give your opinion"></textarea>
+                        <button class="btn">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- footer -->
+    <footer>
+        <div class="copyright">
+            <p>Designed by &copy;Tochi 'MEGADROID' Nwadibia</p>
+            <div class="social">
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-pinterest"></i>
+                <i class="fab fa-google-plus"></i>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+</body>
+<script src="main.js"></script>
+
+<script>
+    let menu = document.querySelector('#menu-bar');
+    let head = document.querySelector('.head .navbar');
+
+    menu.onclick = () => 
+    {
+        head.classList.toggle('active');
+    };
+
+    window.onscroll = () => 
+    {
+        head.classList.remove('active');
+        if(window.scrollY > 60)
+        {
+            document.querySelector('#scroll').classList.add('active');
+        }
+        else
+        {
+            document.querySelector('#scroll').classList.remove('active');
+        }
+    }
+</script>
+<!-- Food Ordering site by Tochi 'MEGADROID' Nwadibia -->
+</html>
