@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-    text-transform: capitalize;
+    text-transform: none;
     border: none;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -304,13 +304,13 @@ span{
     color: var(--clr3);
     font-size: 2rem;
     letter-spacing: .1rem;
-    text-transform: capitalize;
+    text-transform: none;
 }
 .contact-inner p{
     padding: .5rem 0;
     line-height: 1.5rem;
     font-size: 1.3rem;
-    text-transform: capitalize;
+    text-transform: none;
     color: var(--clr3);
 }
 .contact-inner-col input,
