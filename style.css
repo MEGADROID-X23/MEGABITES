@@ -442,7 +442,12 @@ span{
         padding: 3rem;
     }
 }
-
+.btn a{
+    color: black;
+}
+.btn a:hover{
+    color: white;
+}
 
 /* Food ordering site by Tochi 'MEGADROID' Nwadibia */
 
