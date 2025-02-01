@@ -183,7 +183,7 @@ span{
 .about-box img{
     width: 100%;
     height: auto;
-    animation: icon 5s ease-in infinite;
+    /* animation: icon 5s ease-in infinite; */
 }
 .about-inner{
     padding-top: 2rem;
